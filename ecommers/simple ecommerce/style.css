@@ -1,0 +1,73 @@
+
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Segoe UI,Arial,sans-serif;background:#f4f6f9;color:#222}
+
+nav{
+background:#0f172a;
+color:white;
+display:flex;
+justify-content:space-between;
+padding:18px 40px;
+}
+.logo{font-size:24px;font-weight:bold;color:#38bdf8}
+.menu a{color:white;text-decoration:none;margin-left:20px}
+
+.hero{
+background:linear-gradient(135deg,#2563eb,#06b6d4);
+color:white;
+padding:80px 20px;
+text-align:center;
+}
+.hero h1{font-size:42px;margin-bottom:10px}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:20px;
+padding:40px;
+max-width:1200px;
+margin:auto;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 3px 12px rgba(0,0,0,.08);
+border-top:4px solid #2563eb;
+}
+
+.price{
+font-size:20px;
+font-weight:bold;
+color:#2563eb;
+margin:10px 0;
+}
+
+button{
+background:#2563eb;
+color:white;
+border:none;
+padding:10px 15px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.cart{
+background:white;
+max-width:900px;
+margin:20px auto;
+padding:25px;
+border-radius:12px;
+box-shadow:0 3px 12px rgba(0,0,0,.08);
+}
+
+footer{
+margin-top:40px;
+background:#0f172a;
+color:white;
+padding:40px;
+text-align:center;
+}
+footer h2{color:#38bdf8;margin-bottom:10px}
+li{margin:6px 0}
